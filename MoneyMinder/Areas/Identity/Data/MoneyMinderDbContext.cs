@@ -10,6 +10,7 @@ public class MoneyMinderDbContext : IdentityDbContext<ApplicationUser>
     public MoneyMinderDbContext(DbContextOptions<MoneyMinderDbContext> options)
         : base(options)
     {
+
     }
 
     protected override void OnModelCreating(ModelBuilder builder)

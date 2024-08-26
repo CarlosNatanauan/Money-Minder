@@ -9,7 +9,7 @@ var connectionString = builder.Configuration.GetConnectionString("MoneyMinderDbC
 
 builder.Services.AddDbContext<MoneyMinderDbContext>(options => options.UseSqlServer(connectionString));
 
-builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<MoneyMinderDbContext>();
+builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = false).AddEntityFrameworkStores<MoneyMinderDbContext>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
