@@ -16,7 +16,7 @@
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/yourusername/moneyminder.git
+    https://github.com/CarlosNatanauan/Money-Minder.git
     cd moneyminder
     ```
 
@@ -29,7 +29,6 @@
     ```bash
     dotnet run
     ```
-    Access the app at `http://localhost:5000`.
 
 ## Usage
 
